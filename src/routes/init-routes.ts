@@ -1,5 +1,5 @@
 import { Express } from "express";
-import Welcome from "@/routes/welcome-routes";
+import Welcome from "@/routes/welcome.routes";
 
 export const initRoutes = async (app: Express) => {
   //Testing api
